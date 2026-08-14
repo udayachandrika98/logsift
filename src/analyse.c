@@ -66,7 +66,11 @@ bool parse_time_arg(const char *text, time_t now, time_t *out) {
     }
 
     char buffer[40];
-    snprintf(buffer, sizeof(buffer), "%s", text);
+    /* Reject rather than truncate -- a shortened timestamp can still parse
+     * and yield a plausible but wrong time. */
+    if (length >= sizeof(buffer)) return false;
+    memcpy(buffer, text, length + 1);
+
     for (size_t i = 0; buffer[i]; i++) {
         if (buffer[i] == 'T') buffer[i] = ' ';
     }
@@ -145,7 +149,9 @@ void top_values(const entries_t *entries, const filter_t *filter, const char *ke
         count++;
     }
 
-    qsort(rows, count, sizeof(top_row_t), compare_top);
+    /* qsort with a NULL base is undefined even when count is 0, and glibc's
+     * prototype marks the argument non-null -- UBSan flags it. */
+    if (count > 1) qsort(rows, count, sizeof(top_row_t), compare_top);
 
     if (limit && count > limit) {
         for (size_t i = limit; i < count; i++) free(rows[i].value);
@@ -211,7 +217,7 @@ bool bucket_series(const entries_t *entries, const filter_t *filter, long window
         out->count++;
     }
 
-    qsort(out->items, out->count, sizeof(bucket_t), compare_buckets);
+    if (out->count > 1) qsort(out->items, out->count, sizeof(bucket_t), compare_buckets);
     return out->count > 0;
 }
 

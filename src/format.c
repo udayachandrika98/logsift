@@ -175,7 +175,12 @@ static bool parse_syslog_time(const char *text, size_t length, time_t *out) {
 
 static bool parse_iso_time(const char *text, time_t *out) {
     char buffer[40];
-    snprintf(buffer, sizeof(buffer), "%s", text);
+    /* Reject rather than truncate: a silently shortened timestamp could still
+     * parse and yield a plausible but wrong time. */
+    size_t length = strlen(text);
+    if (length >= sizeof(buffer)) return false;
+    memcpy(buffer, text, length + 1);
+
     for (size_t i = 0; buffer[i]; i++) {
         if (buffer[i] == 'T') buffer[i] = ' ';
         if (buffer[i] == 'Z') buffer[i] = '\0';

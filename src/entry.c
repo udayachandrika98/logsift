@@ -1,5 +1,11 @@
 /* Entry lifetime and field lookup. */
 
+/* getline() and strdup() are POSIX.1-2008, not ISO C. Under -std=c11 glibc
+ * hides them unless this is defined before any system header -- and an
+ * implicitly declared strdup() returns int, which truncates the pointer on
+ * 64-bit. macOS exposes them regardless, so omitting this only breaks Linux. */
+#define _XOPEN_SOURCE 700
+
 #include <stdlib.h>
 #include <string.h>
 
