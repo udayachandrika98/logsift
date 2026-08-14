@@ -17,7 +17,7 @@ from .analyse import (
     summarise,
     top,
 )
-from .formats import PROFILES, detect, parse_stream
+from .formats import LEVELS, PROFILES, detect, parse_stream
 
 
 def _open(path: str):
@@ -49,7 +49,8 @@ def _entries(args):
 
 
 def _build_filter(args) -> Filter:
-    pattern = re.compile(args.grep, 0 if args.case_sensitive else re.IGNORECASE) if args.grep else None
+    flags = 0 if args.case_sensitive else re.IGNORECASE
+    pattern = re.compile(args.grep, flags) if args.grep else None
     now = datetime.now()
     return Filter(
         min_level=args.level,
@@ -148,8 +149,9 @@ def build_parser() -> argparse.ArgumentParser:
             "-f", "--format", choices=[*PROFILES, "auto"], default="auto",
             help="log format (default: sniff it)",
         )
-        p.add_argument("-l", "--level", choices=("trace", "debug", "info", "warn", "error", "fatal"),
-                       help="keep this level and above")
+        p.add_argument(
+            "-l", "--level", choices=LEVELS, help="keep this level and above"
+        )
         p.add_argument("-g", "--grep", help="regex the raw line must match")
         p.add_argument("-v", "--invert", action="store_true", help="invert --grep")
         p.add_argument("--case-sensitive", action="store_true")

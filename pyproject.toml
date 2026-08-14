@@ -22,3 +22,9 @@ include = ["logsift*"]
 
 [tool.ruff]
 line-length = 100
+
+# Rules are selected explicitly rather than relying on ruff's defaults, which
+# change between releases -- otherwise a ruff upgrade turns CI red on code
+# that nobody touched.
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "C4"]

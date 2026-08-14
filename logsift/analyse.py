@@ -23,18 +23,19 @@ class Filter:
     field_equals: dict[str, str] | None = None
 
     def matches(self, entry: Entry) -> bool:
-        if self.min_level is not None:
-            # Entries with no level are kept -- a missing level is not proof
-            # the line is unimportant, and dropping them silently loses data.
-            if entry.level is not None and level_rank(entry.level) < level_rank(self.min_level):
-                return False
+        # Entries with no level are kept -- a missing level is not proof the
+        # line is unimportant, and dropping them silently loses data.
+        if (
+            self.min_level is not None
+            and entry.level is not None
+            and level_rank(entry.level) < level_rank(self.min_level)
+        ):
+            return False
 
-        if self.since is not None and entry.timestamp is not None:
-            if entry.timestamp < self.since:
-                return False
-        if self.until is not None and entry.timestamp is not None:
-            if entry.timestamp > self.until:
-                return False
+        if self.since is not None and entry.timestamp is not None and entry.timestamp < self.since:
+            return False
+        if self.until is not None and entry.timestamp is not None and entry.timestamp > self.until:
+            return False
 
         if self.field_equals:
             for key, expected in self.field_equals.items():
