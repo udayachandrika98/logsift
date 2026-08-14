@@ -398,6 +398,7 @@ int main(int argc, char **argv) {
 
     entries_free(&entries);
     filter_free(&filter);
+    formats_cleanup();
     free(shifted_argv);
     return status;
 }

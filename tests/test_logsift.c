@@ -385,4 +385,8 @@ TEST(a_flat_series_has_no_spikes) {
     CHECK_EQ(find_spikes(&buckets, 3.0, indices, 5), 0);
 }
 
-int main(void) { return check_run_all(); }
+int main(void) {
+    int status = check_run_all();
+    formats_cleanup();
+    return status;
+}

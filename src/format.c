@@ -372,6 +372,16 @@ static entry_t parse_json(const char *line, size_t lineno) {
     return entry;
 }
 
+void formats_cleanup(void) {
+    lazy_regex_t *slots[] = {&app_re, &nginx_re, &syslog_re};
+    for (size_t i = 0; i < sizeof(slots) / sizeof(slots[0]); i++) {
+        if (slots[i]->ready) {
+            regfree(&slots[i]->regex);
+            slots[i]->ready = false;
+        }
+    }
+}
+
 entry_t parse_line(format_t format, const char *line, size_t lineno) {
     switch (format) {
         case FMT_NGINX: return parse_nginx(line, lineno);

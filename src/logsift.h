@@ -81,6 +81,11 @@ bool format_from_string(const char *text, format_t *out);
  * dropped from a scan. */
 entry_t parse_line(format_t format, const char *line, size_t lineno);
 
+/* Frees the lazily compiled format regexes. Call once at exit -- without it
+ * LeakSanitizer reports them, and "it's freed at process exit anyway" is how
+ * real leaks end up hiding among the accepted ones. */
+void formats_cleanup(void);
+
 /* Guesses the format from a sample, most specific first. */
 format_t detect_format(char **lines, size_t count);
 

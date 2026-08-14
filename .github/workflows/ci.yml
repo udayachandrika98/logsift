@@ -37,18 +37,23 @@ jobs:
   sanitizers:
     # LeakSanitizer only works on Linux, so the memory checks live here.
     runs-on: ubuntu-latest
+    env:
+      # Both binaries must be built with identical flags. Running `make clean`
+      # between them would delete the CLI that the next step needs, and mixing
+      # instrumented and uninstrumented objects silently misbehaves.
+      SAN_CFLAGS: "-std=c11 -g -O1 -fsanitize=address,undefined -fno-omit-frame-pointer -Wall -Wextra"
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build with ASan + UBSan
+      - name: Build CLI and tests with ASan + UBSan
         run: |
           make clean
-          make CFLAGS="-std=c11 -g -O1 -fsanitize=address,undefined -fno-omit-frame-pointer -Wall -Wextra"
+          make CFLAGS="$SAN_CFLAGS"
+          make CFLAGS="$SAN_CFLAGS" run_tests
+          test -x ./logsift && test -x ./run_tests
 
       - name: Run test suite under sanitizers
-        run: |
-          make clean
-          make CFLAGS="-std=c11 -g -O1 -fsanitize=address,undefined -fno-omit-frame-pointer -Wall -Wextra" test
+        run: ./run_tests
         env:
           ASAN_OPTIONS: detect_leaks=1
           UBSAN_OPTIONS: halt_on_error=1:print_stacktrace=1
