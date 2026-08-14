@@ -6,16 +6,65 @@ on:
   pull_request:
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
+  build-and-test:
     strategy:
+      fail-fast: false
       matrix:
-        python-version: ["3.10", "3.11", "3.12"]
+        include:
+          - os: ubuntu-latest
+            cc: gcc
+          - os: ubuntu-latest
+            cc: clang
+          - os: macos-latest
+            cc: clang
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: ${{ matrix.python-version }}
-      - run: pip install -e ".[dev]"
-      - run: ruff check .
-      - run: pytest -q
+
+      - name: Build (warnings are errors)
+        run: make CC=${{ matrix.cc }} CFLAGS="-std=c11 -O2 -Wall -Wextra -Wpedantic -Wshadow -Werror"
+
+      - name: Test
+        run: make CC=${{ matrix.cc }} test
+
+      - name: Smoke-test the CLI
+        run: |
+          ./logsift summary examples/api.log
+          ./logsift top logger examples/api.log -n 3
+          ./logsift rate examples/api.log --at-level error -w 60 || test $? -eq 2
+          cat examples/api.log | ./logsift summary > /dev/null
+
+  sanitizers:
+    # LeakSanitizer only works on Linux, so the memory checks live here.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build with ASan + UBSan
+        run: |
+          make clean
+          make CFLAGS="-std=c11 -g -O1 -fsanitize=address,undefined -fno-omit-frame-pointer -Wall -Wextra"
+
+      - name: Run test suite under sanitizers
+        run: |
+          make clean
+          make CFLAGS="-std=c11 -g -O1 -fsanitize=address,undefined -fno-omit-frame-pointer -Wall -Wextra" test
+        env:
+          ASAN_OPTIONS: detect_leaks=1
+          UBSAN_OPTIONS: halt_on_error=1:print_stacktrace=1
+
+      - name: Run the CLI under sanitizers, including on hostile input
+        env:
+          ASAN_OPTIONS: detect_leaks=1
+          UBSAN_OPTIONS: halt_on_error=1:print_stacktrace=1
+        run: |
+          head -c 20000 /dev/urandom > /tmp/garbage.log
+          printf 'no newline at eof' > /tmp/noeol.log
+          : > /tmp/empty.log
+          ./logsift summary examples/api.log > /dev/null
+          ./logsift top logger examples/api.log > /dev/null
+          ./logsift rate examples/api.log --at-level error > /dev/null || test $? -eq 2
+          ./logsift show examples/api.log --level error -n 5 > /dev/null
+          ./logsift summary /tmp/garbage.log > /dev/null
+          ./logsift summary /tmp/noeol.log > /dev/null
+          ./logsift summary /tmp/empty.log > /dev/null || true

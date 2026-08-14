@@ -1,14 +1,16 @@
-__pycache__/
-*.py[cod]
-*.egg-info/
-build/
-dist/
-.venv/
-venv/
-.pytest_cache/
-.coverage
-htmlcov/
+# Build artifacts
+*.o
+*.a
+logsift
+run_tests
+
+# Sanitizer / debug output
+*.dSYM/
+core
+vgcore.*
+
+# Editors / OS
 .DS_Store
 .vscode/
 .idea/
-episodes/
+compile_commands.json
