@@ -1,0 +1,1102 @@
+2026-08-01 10:00:02 [WARN] api.orders - slow query took 73ms
+2026-08-01 10:00:05 [INFO] worker.queue - request completed in 848ms
+2026-08-01 10:00:06 [INFO] api.orders - request completed in 521ms
+2026-08-01 10:00:07 [INFO] worker.queue - cache hit for key user:107
+2026-08-01 10:00:07 [INFO] worker.queue - request completed in 592ms
+2026-08-01 10:00:09 [INFO] worker.queue - request completed in 76ms
+2026-08-01 10:00:10 [WARN] api.orders - slow query took 62ms
+2026-08-01 10:00:15 [INFO] worker.queue - cache hit for key user:85
+2026-08-01 10:00:17 [INFO] api.db - request completed in 64ms
+2026-08-01 10:00:18 [INFO] worker.queue - request completed in 122ms
+2026-08-01 10:00:19 [DEBUG] api.cache - pool size 748 connections
+2026-08-01 10:00:25 [INFO] worker.queue - cache hit for key user:49
+2026-08-01 10:00:26 [DEBUG] api.cache - pool size 157 connections
+2026-08-01 10:00:26 [ERROR] api.auth - unhandled exception in handler
+2026-08-01 10:00:29 [WARN] api.db - slow query took 372ms
+2026-08-01 10:00:31 [WARN] api.db - slow query took 797ms
+2026-08-01 10:00:36 [DEBUG] worker.queue - pool size 101 connections
+2026-08-01 10:00:38 [WARN] api.auth - slow query took 72ms
+2026-08-01 10:00:41 [WARN] api.cache - slow query took 293ms
+2026-08-01 10:00:45 [INFO] api.orders - request completed in 635ms
+2026-08-01 10:00:48 [DEBUG] api.db - pool size 350 connections
+2026-08-01 10:00:54 [WARN] worker.queue - slow query took 149ms
+2026-08-01 10:00:56 [INFO] api.db - request completed in 474ms
+2026-08-01 10:01:04 [WARN] api.db - slow query took 154ms
+2026-08-01 10:01:05 [WARN] api.db - slow query took 564ms
+2026-08-01 10:01:06 [ERROR] api.orders - unhandled exception in handler
+2026-08-01 10:01:08 [WARN] api.cache - slow query took 402ms
+2026-08-01 10:01:11 [INFO] api.cache - request completed in 151ms
+2026-08-01 10:01:13 [DEBUG] worker.queue - pool size 152 connections
+2026-08-01 10:01:14 [INFO] api.orders - cache hit for key user:156
+2026-08-01 10:01:17 [DEBUG] api.cache - pool size 701 connections
+2026-08-01 10:01:19 [INFO] api.db - request completed in 714ms
+2026-08-01 10:01:19 [INFO] api.db - request completed in 769ms
+2026-08-01 10:01:22 [WARN] api.auth - slow query took 127ms
+2026-08-01 10:01:25 [WARN] api.cache - slow query took 108ms
+2026-08-01 10:01:28 [DEBUG] api.auth - pool size 617 connections
+2026-08-01 10:01:34 [DEBUG] api.auth - pool size 630 connections
+2026-08-01 10:01:34 [DEBUG] worker.queue - pool size 130 connections
+2026-08-01 10:01:39 [INFO] worker.queue - request completed in 469ms
+2026-08-01 10:01:40 [INFO] api.orders - cache hit for key user:70
+2026-08-01 10:01:42 [WARN] worker.queue - slow query took 853ms
+2026-08-01 10:01:47 [INFO] api.auth - cache hit for key user:530
+2026-08-01 10:01:54 [WARN] api.cache - slow query took 493ms
+2026-08-01 10:01:56 [WARN] worker.queue - slow query took 886ms
+2026-08-01 10:01:58 [ERROR] worker.queue - unhandled exception in handler
+2026-08-01 10:02:01 [DEBUG] api.orders - pool size 515 connections
+2026-08-01 10:02:01 [WARN] api.orders - slow query took 827ms
+2026-08-01 10:02:05 [WARN] api.cache - slow query took 476ms
+2026-08-01 10:02:08 [INFO] api.cache - request completed in 895ms
+2026-08-01 10:02:09 [INFO] api.auth - cache hit for key user:23
+2026-08-01 10:02:11 [INFO] api.auth - request completed in 571ms
+2026-08-01 10:02:12 [WARN] worker.queue - slow query took 641ms
+2026-08-01 10:02:20 [WARN] api.auth - slow query took 805ms
+2026-08-01 10:02:23 [DEBUG] api.orders - pool size 792 connections
+2026-08-01 10:02:23 [INFO] api.cache - request completed in 234ms
+2026-08-01 10:02:27 [INFO] api.orders - cache hit for key user:847
+2026-08-01 10:02:30 [DEBUG] api.db - pool size 459 connections
+2026-08-01 10:02:30 [WARN] api.db - slow query took 810ms
+2026-08-01 10:02:31 [INFO] api.db - request completed in 30ms
+2026-08-01 10:02:34 [DEBUG] api.orders - pool size 653 connections
+2026-08-01 10:02:39 [INFO] api.orders - cache hit for key user:827
+2026-08-01 10:02:39 [WARN] api.db - slow query took 675ms
+2026-08-01 10:02:47 [INFO] api.orders - cache hit for key user:176
+2026-08-01 10:02:48 [DEBUG] api.cache - pool size 559 connections
+2026-08-01 10:02:49 [INFO] api.orders - request completed in 796ms
+2026-08-01 10:02:51 [INFO] api.orders - request completed in 399ms
+2026-08-01 10:02:51 [INFO] api.orders - request completed in 541ms
+2026-08-01 10:02:52 [INFO] worker.queue - cache hit for key user:206
+2026-08-01 10:02:52 [WARN] worker.queue - slow query took 848ms
+2026-08-01 10:02:53 [DEBUG] worker.queue - pool size 471 connections
+2026-08-01 10:02:53 [ERROR] api.db - unhandled exception in handler
+2026-08-01 10:03:01 [WARN] api.auth - slow query took 453ms
+2026-08-01 10:03:02 [INFO] api.orders - cache hit for key user:114
+2026-08-01 10:03:03 [DEBUG] api.auth - pool size 45 connections
+2026-08-01 10:03:05 [INFO] api.auth - cache hit for key user:437
+2026-08-01 10:03:05 [INFO] api.db - cache hit for key user:70
+2026-08-01 10:03:05 [INFO] api.orders - request completed in 799ms
+2026-08-01 10:03:07 [INFO] api.auth - cache hit for key user:899
+2026-08-01 10:03:10 [WARN] api.cache - slow query took 349ms
+2026-08-01 10:03:12 [INFO] api.db - request completed in 741ms
+2026-08-01 10:03:13 [INFO] api.orders - request completed in 797ms
+2026-08-01 10:03:16 [INFO] api.db - cache hit for key user:321
+2026-08-01 10:03:17 [INFO] api.db - request completed in 822ms
+2026-08-01 10:03:17 [WARN] api.db - slow query took 871ms
+2026-08-01 10:03:24 [DEBUG] api.auth - pool size 526 connections
+2026-08-01 10:03:25 [INFO] api.orders - cache hit for key user:685
+2026-08-01 10:03:25 [WARN] api.db - slow query took 719ms
+2026-08-01 10:03:26 [DEBUG] api.orders - pool size 638 connections
+2026-08-01 10:03:28 [INFO] api.auth - cache hit for key user:440
+2026-08-01 10:03:28 [INFO] api.db - cache hit for key user:711
+2026-08-01 10:03:28 [WARN] api.orders - slow query took 521ms
+2026-08-01 10:03:32 [INFO] api.auth - request completed in 780ms
+2026-08-01 10:03:44 [DEBUG] api.orders - pool size 574 connections
+2026-08-01 10:03:45 [DEBUG] api.db - pool size 148 connections
+2026-08-01 10:03:53 [WARN] api.cache - slow query took 126ms
+2026-08-01 10:03:55 [INFO] worker.queue - request completed in 349ms
+2026-08-01 10:03:56 [WARN] api.auth - slow query took 226ms
+2026-08-01 10:04:00 [ERROR] worker.queue - unhandled exception in handler
+2026-08-01 10:04:02 [DEBUG] api.cache - pool size 109 connections
+2026-08-01 10:04:03 [INFO] api.db - request completed in 74ms
+2026-08-01 10:04:06 [WARN] api.cache - slow query took 674ms
+2026-08-01 10:04:17 [DEBUG] api.db - pool size 374 connections
+2026-08-01 10:04:17 [INFO] api.auth - request completed in 258ms
+2026-08-01 10:04:22 [DEBUG] api.auth - pool size 392 connections
+2026-08-01 10:04:24 [WARN] api.db - slow query took 155ms
+2026-08-01 10:04:25 [ERROR] api.db - unhandled exception in handler
+2026-08-01 10:04:27 [INFO] api.cache - request completed in 683ms
+2026-08-01 10:04:30 [INFO] worker.queue - cache hit for key user:256
+2026-08-01 10:04:34 [WARN] api.db - slow query took 520ms
+2026-08-01 10:04:35 [INFO] api.orders - request completed in 318ms
+2026-08-01 10:04:35 [WARN] api.cache - slow query took 253ms
+2026-08-01 10:04:36 [INFO] worker.queue - request completed in 848ms
+2026-08-01 10:04:40 [INFO] worker.queue - cache hit for key user:538
+2026-08-01 10:04:40 [INFO] worker.queue - cache hit for key user:675
+2026-08-01 10:04:44 [INFO] api.orders - cache hit for key user:352
+2026-08-01 10:04:44 [WARN] api.orders - slow query took 191ms
+2026-08-01 10:04:46 [INFO] worker.queue - cache hit for key user:46
+2026-08-01 10:04:48 [WARN] api.orders - slow query took 514ms
+2026-08-01 10:04:49 [ERROR] api.db - unhandled exception in handler
+2026-08-01 10:04:51 [INFO] api.auth - cache hit for key user:89
+2026-08-01 10:04:52 [WARN] api.auth - slow query took 602ms
+2026-08-01 10:04:53 [INFO] api.db - cache hit for key user:416
+2026-08-01 10:04:55 [DEBUG] api.orders - pool size 615 connections
+2026-08-01 10:05:00 [DEBUG] api.cache - pool size 861 connections
+2026-08-01 10:05:04 [WARN] api.auth - slow query took 260ms
+2026-08-01 10:05:05 [DEBUG] api.orders - pool size 370 connections
+2026-08-01 10:05:07 [INFO] api.auth - cache hit for key user:732
+2026-08-01 10:05:08 [ERROR] api.auth - unhandled exception in handler
+2026-08-01 10:05:09 [DEBUG] worker.queue - pool size 638 connections
+2026-08-01 10:05:10 [ERROR] api.cache - unhandled exception in handler
+2026-08-01 10:05:13 [INFO] worker.queue - cache hit for key user:78
+2026-08-01 10:05:14 [WARN] api.auth - slow query took 405ms
+2026-08-01 10:05:25 [INFO] api.cache - request completed in 371ms
+2026-08-01 10:05:26 [DEBUG] api.db - pool size 125 connections
+2026-08-01 10:05:29 [INFO] api.auth - cache hit for key user:321
+2026-08-01 10:05:31 [INFO] api.db - request completed in 492ms
+2026-08-01 10:05:31 [INFO] api.orders - request completed in 710ms
+2026-08-01 10:05:35 [INFO] worker.queue - request completed in 643ms
+2026-08-01 10:05:38 [DEBUG] api.db - pool size 117 connections
+2026-08-01 10:05:43 [DEBUG] api.cache - pool size 477 connections
+2026-08-01 10:05:43 [DEBUG] api.cache - pool size 5 connections
+2026-08-01 10:05:43 [DEBUG] api.orders - pool size 746 connections
+2026-08-01 10:05:49 [INFO] worker.queue - cache hit for key user:81
+2026-08-01 10:05:51 [INFO] worker.queue - request completed in 677ms
+2026-08-01 10:05:52 [WARN] api.cache - slow query took 277ms
+2026-08-01 10:05:54 [INFO] api.cache - cache hit for key user:238
+2026-08-01 10:05:57 [DEBUG] api.auth - pool size 383 connections
+2026-08-01 10:05:59 [DEBUG] api.auth - pool size 471 connections
+2026-08-01 10:06:03 [WARN] worker.queue - slow query took 463ms
+2026-08-01 10:06:04 [WARN] api.orders - slow query took 565ms
+2026-08-01 10:06:21 [WARN] worker.queue - slow query took 286ms
+2026-08-01 10:06:23 [INFO] api.db - cache hit for key user:96
+2026-08-01 10:06:24 [INFO] api.db - cache hit for key user:387
+2026-08-01 10:06:25 [DEBUG] worker.queue - pool size 496 connections
+2026-08-01 10:06:26 [DEBUG] api.db - pool size 263 connections
+2026-08-01 10:06:27 [INFO] api.auth - request completed in 132ms
+2026-08-01 10:06:27 [WARN] api.cache - slow query took 603ms
+2026-08-01 10:06:28 [WARN] api.orders - slow query took 439ms
+2026-08-01 10:06:32 [DEBUG] api.cache - pool size 805 connections
+2026-08-01 10:06:35 [INFO] api.db - cache hit for key user:379
+2026-08-01 10:06:35 [INFO] api.db - request completed in 180ms
+2026-08-01 10:06:40 [INFO] api.cache - cache hit for key user:274
+2026-08-01 10:06:42 [INFO] api.orders - cache hit for key user:660
+2026-08-01 10:06:48 [DEBUG] api.auth - pool size 499 connections
+2026-08-01 10:06:51 [INFO] api.cache - request completed in 769ms
+2026-08-01 10:06:54 [INFO] api.db - request completed in 54ms
+2026-08-01 10:06:56 [ERROR] api.cache - unhandled exception in handler
+2026-08-01 10:06:57 [WARN] api.cache - slow query took 663ms
+2026-08-01 10:06:58 [INFO] api.auth - cache hit for key user:738
+2026-08-01 10:06:58 [INFO] api.cache - cache hit for key user:176
+2026-08-01 10:07:02 [WARN] api.cache - slow query took 373ms
+2026-08-01 10:07:04 [WARN] api.orders - slow query took 461ms
+2026-08-01 10:07:06 [INFO] api.db - cache hit for key user:399
+2026-08-01 10:07:08 [WARN] api.auth - slow query took 717ms
+2026-08-01 10:07:12 [ERROR] api.db - unhandled exception in handler
+2026-08-01 10:07:12 [INFO] api.cache - cache hit for key user:238
+2026-08-01 10:07:14 [DEBUG] api.cache - pool size 234 connections
+2026-08-01 10:07:14 [DEBUG] worker.queue - pool size 113 connections
+2026-08-01 10:07:14 [INFO] api.db - request completed in 662ms
+2026-08-01 10:07:14 [INFO] worker.queue - request completed in 12ms
+2026-08-01 10:07:19 [DEBUG] api.orders - pool size 325 connections
+2026-08-01 10:07:30 [INFO] api.cache - cache hit for key user:31
+2026-08-01 10:07:31 [WARN] api.db - slow query took 85ms
+2026-08-01 10:07:43 [WARN] worker.queue - slow query took 89ms
+2026-08-01 10:07:45 [INFO] api.orders - request completed in 24ms
+2026-08-01 10:07:47 [INFO] api.cache - request completed in 212ms
+2026-08-01 10:07:49 [ERROR] api.orders - unhandled exception in handler
+2026-08-01 10:07:50 [INFO] worker.queue - cache hit for key user:157
+2026-08-01 10:08:02 [INFO] api.orders - request completed in 265ms
+2026-08-01 10:08:05 [DEBUG] api.orders - pool size 197 connections
+2026-08-01 10:08:05 [WARN] api.db - slow query took 202ms
+2026-08-01 10:08:06 [WARN] api.cache - slow query took 796ms
+2026-08-01 10:08:08 [INFO] api.db - cache hit for key user:10
+2026-08-01 10:08:09 [INFO] api.cache - request completed in 190ms
+2026-08-01 10:08:10 [INFO] api.auth - request completed in 288ms
+2026-08-01 10:08:13 [ERROR] worker.queue - unhandled exception in handler
+2026-08-01 10:08:15 [WARN] api.cache - slow query took 43ms
+2026-08-01 10:08:20 [WARN] worker.queue - slow query took 372ms
+2026-08-01 10:08:21 [INFO] api.db - request completed in 270ms
+2026-08-01 10:08:22 [INFO] api.orders - request completed in 576ms
+2026-08-01 10:08:24 [DEBUG] api.cache - pool size 843 connections
+2026-08-01 10:08:28 [DEBUG] api.auth - pool size 752 connections
+2026-08-01 10:08:34 [INFO] api.db - cache hit for key user:333
+2026-08-01 10:08:39 [INFO] api.cache - cache hit for key user:498
+2026-08-01 10:08:41 [WARN] api.db - slow query took 34ms
+2026-08-01 10:08:42 [DEBUG] api.cache - pool size 341 connections
+2026-08-01 10:08:47 [DEBUG] api.db - pool size 373 connections
+2026-08-01 10:08:47 [INFO] api.cache - request completed in 648ms
+2026-08-01 10:08:50 [WARN] api.cache - slow query took 836ms
+2026-08-01 10:08:52 [INFO] api.orders - cache hit for key user:623
+2026-08-01 10:08:58 [INFO] api.auth - cache hit for key user:404
+2026-08-01 10:08:58 [INFO] api.orders - request completed in 26ms
+2026-08-01 10:08:59 [INFO] worker.queue - request completed in 740ms
+2026-08-01 10:09:02 [WARN] api.orders - slow query took 840ms
+2026-08-01 10:09:04 [WARN] worker.queue - slow query took 567ms
+2026-08-01 10:09:08 [INFO] worker.queue - cache hit for key user:767
+2026-08-01 10:09:12 [DEBUG] api.orders - pool size 526 connections
+2026-08-01 10:09:14 [INFO] worker.queue - cache hit for key user:616
+2026-08-01 10:09:15 [DEBUG] api.orders - pool size 594 connections
+2026-08-01 10:09:16 [INFO] api.cache - cache hit for key user:100
+2026-08-01 10:09:18 [DEBUG] api.db - pool size 383 connections
+2026-08-01 10:09:20 [DEBUG] worker.queue - pool size 253 connections
+2026-08-01 10:09:20 [WARN] api.auth - slow query took 109ms
+2026-08-01 10:09:21 [INFO] api.auth - cache hit for key user:263
+2026-08-01 10:09:28 [INFO] worker.queue - request completed in 110ms
+2026-08-01 10:09:31 [WARN] api.orders - slow query took 179ms
+2026-08-01 10:09:32 [INFO] api.cache - cache hit for key user:255
+2026-08-01 10:09:33 [INFO] api.cache - request completed in 671ms
+2026-08-01 10:09:45 [INFO] api.db - cache hit for key user:40
+2026-08-01 10:09:47 [WARN] api.orders - slow query took 255ms
+2026-08-01 10:09:53 [DEBUG] api.db - pool size 43 connections
+2026-08-01 10:09:54 [INFO] api.db - request completed in 800ms
+2026-08-01 10:10:04 [WARN] api.cache - slow query took 563ms
+2026-08-01 10:10:04 [WARN] worker.queue - slow query took 681ms
+2026-08-01 10:10:08 [ERROR] worker.queue - unhandled exception in handler
+2026-08-01 10:10:09 [INFO] api.orders - request completed in 670ms
+2026-08-01 10:10:09 [WARN] worker.queue - slow query took 93ms
+2026-08-01 10:10:11 [INFO] worker.queue - request completed in 411ms
+2026-08-01 10:10:18 [INFO] api.auth - cache hit for key user:70
+2026-08-01 10:10:24 [INFO] api.orders - cache hit for key user:310
+2026-08-01 10:10:25 [DEBUG] api.orders - pool size 473 connections
+2026-08-01 10:10:25 [WARN] api.db - slow query took 292ms
+2026-08-01 10:10:26 [DEBUG] worker.queue - pool size 765 connections
+2026-08-01 10:10:26 [INFO] api.db - cache hit for key user:637
+2026-08-01 10:10:27 [WARN] api.auth - slow query took 118ms
+2026-08-01 10:10:38 [WARN] worker.queue - slow query took 90ms
+2026-08-01 10:10:39 [INFO] api.cache - cache hit for key user:851
+2026-08-01 10:10:39 [INFO] api.db - cache hit for key user:151
+2026-08-01 10:10:41 [WARN] api.auth - slow query took 210ms
+2026-08-01 10:10:44 [INFO] api.orders - cache hit for key user:657
+2026-08-01 10:10:52 [ERROR] api.db - unhandled exception in handler
+2026-08-01 10:10:53 [WARN] api.auth - slow query took 324ms
+2026-08-01 10:10:56 [WARN] api.db - slow query took 20ms
+2026-08-01 10:11:00 [WARN] api.orders - slow query took 478ms
+2026-08-01 10:11:01 [INFO] api.orders - request completed in 200ms
+2026-08-01 10:11:02 [INFO] api.db - request completed in 685ms
+2026-08-01 10:11:02 [WARN] api.db - slow query took 167ms
+2026-08-01 10:11:04 [DEBUG] api.db - pool size 164 connections
+2026-08-01 10:11:05 [DEBUG] worker.queue - pool size 798 connections
+2026-08-01 10:11:05 [WARN] api.orders - slow query took 670ms
+2026-08-01 10:11:07 [WARN] api.db - slow query took 565ms
+2026-08-01 10:11:16 [INFO] api.db - cache hit for key user:328
+2026-08-01 10:11:22 [INFO] api.cache - request completed in 823ms
+2026-08-01 10:11:24 [INFO] api.orders - cache hit for key user:254
+2026-08-01 10:11:28 [WARN] api.orders - slow query took 858ms
+2026-08-01 10:11:32 [INFO] api.orders - request completed in 43ms
+2026-08-01 10:11:32 [WARN] worker.queue - slow query took 215ms
+2026-08-01 10:11:41 [INFO] api.cache - cache hit for key user:437
+2026-08-01 10:11:42 [WARN] api.auth - slow query took 185ms
+2026-08-01 10:11:43 [WARN] api.db - slow query took 174ms
+2026-08-01 10:11:51 [INFO] api.orders - request completed in 70ms
+2026-08-01 10:11:56 [INFO] api.orders - cache hit for key user:704
+2026-08-01 10:11:57 [WARN] api.db - slow query took 149ms
+2026-08-01 10:12:00 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:00 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:00 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:00 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:00 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:00 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:00 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:00 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:01 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:01 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:02 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:04 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:04 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:05 [DEBUG] api.auth - pool size 490 connections
+2026-08-01 10:12:05 [ERROR] api.db - unhandled exception in handler
+2026-08-01 10:12:06 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:06 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:06 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:07 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:07 [WARN] worker.queue - slow query took 808ms
+2026-08-01 10:12:08 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:08 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:08 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:10 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:11 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:11 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:12 [DEBUG] api.cache - pool size 198 connections
+2026-08-01 10:12:12 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:12 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:12 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:12 [INFO] api.cache - request completed in 890ms
+2026-08-01 10:12:13 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:13 [INFO] worker.queue - request completed in 748ms
+2026-08-01 10:12:14 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:14 [INFO] worker.queue - request completed in 358ms
+2026-08-01 10:12:15 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:15 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:15 [INFO] api.cache - cache hit for key user:258
+2026-08-01 10:12:16 [DEBUG] worker.queue - pool size 330 connections
+2026-08-01 10:12:16 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:16 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:16 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:16 [INFO] api.auth - request completed in 170ms
+2026-08-01 10:12:17 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:18 [DEBUG] api.auth - pool size 752 connections
+2026-08-01 10:12:18 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:18 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:18 [INFO] api.orders - cache hit for key user:512
+2026-08-01 10:12:19 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:19 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:19 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:20 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:21 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:22 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:22 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:22 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:24 [INFO] api.db - request completed in 41ms
+2026-08-01 10:12:25 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:26 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:27 [DEBUG] api.orders - pool size 810 connections
+2026-08-01 10:12:27 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:27 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:29 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:29 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:30 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:30 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:31 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:31 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:32 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:32 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:33 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:34 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:34 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:34 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:35 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:35 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:36 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:36 [INFO] api.auth - request completed in 116ms
+2026-08-01 10:12:37 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:37 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:37 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:38 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:39 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:39 [INFO] api.auth - cache hit for key user:719
+2026-08-01 10:12:39 [INFO] api.orders - request completed in 822ms
+2026-08-01 10:12:40 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:40 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:40 [WARN] api.auth - slow query took 477ms
+2026-08-01 10:12:41 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:41 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:41 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:41 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:42 [DEBUG] api.auth - pool size 798 connections
+2026-08-01 10:12:42 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:42 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:43 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:44 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:44 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:44 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:44 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:45 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:45 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:46 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:47 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:47 [WARN] api.orders - slow query took 181ms
+2026-08-01 10:12:48 [DEBUG] api.auth - pool size 504 connections
+2026-08-01 10:12:48 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:49 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:49 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:50 [DEBUG] api.orders - pool size 659 connections
+2026-08-01 10:12:50 [DEBUG] worker.queue - pool size 105 connections
+2026-08-01 10:12:50 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:50 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:50 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:50 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:50 [WARN] api.cache - slow query took 761ms
+2026-08-01 10:12:52 [INFO] api.db - cache hit for key user:255
+2026-08-01 10:12:54 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:54 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:54 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:12:55 [DEBUG] api.cache - pool size 176 connections
+2026-08-01 10:12:56 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:56 [WARN] api.db - slow query took 757ms
+2026-08-01 10:12:57 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:12:57 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:57 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:12:57 [INFO] api.orders - request completed in 382ms
+2026-08-01 10:12:58 [WARN] worker.queue - slow query took 485ms
+2026-08-01 10:12:59 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:00 [DEBUG] api.db - pool size 252 connections
+2026-08-01 10:13:00 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:00 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:00 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:00 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:00 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:00 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:01 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:02 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:03 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:03 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:03 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:03 [WARN] api.db - slow query took 415ms
+2026-08-01 10:13:04 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:04 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:04 [INFO] api.cache - cache hit for key user:798
+2026-08-01 10:13:05 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:06 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:06 [INFO] api.auth - request completed in 645ms
+2026-08-01 10:13:08 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:09 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:10 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:10 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:11 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:12 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:12 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:14 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:15 [INFO] api.orders - request completed in 481ms
+2026-08-01 10:13:16 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:16 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:16 [INFO] api.auth - cache hit for key user:389
+2026-08-01 10:13:16 [INFO] api.auth - request completed in 328ms
+2026-08-01 10:13:16 [INFO] api.auth - request completed in 859ms
+2026-08-01 10:13:16 [INFO] worker.queue - request completed in 459ms
+2026-08-01 10:13:16 [WARN] api.auth - slow query took 59ms
+2026-08-01 10:13:18 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:18 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:18 [INFO] worker.queue - cache hit for key user:282
+2026-08-01 10:13:20 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:20 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:21 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:22 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:22 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:22 [WARN] api.db - slow query took 705ms
+2026-08-01 10:13:22 [WARN] worker.queue - slow query took 812ms
+2026-08-01 10:13:23 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:23 [INFO] api.auth - cache hit for key user:178
+2026-08-01 10:13:23 [INFO] api.auth - cache hit for key user:749
+2026-08-01 10:13:23 [INFO] worker.queue - request completed in 885ms
+2026-08-01 10:13:23 [WARN] api.cache - slow query took 490ms
+2026-08-01 10:13:26 [INFO] api.orders - request completed in 379ms
+2026-08-01 10:13:27 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:27 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:27 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:28 [INFO] api.auth - cache hit for key user:490
+2026-08-01 10:13:29 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:29 [INFO] api.cache - cache hit for key user:800
+2026-08-01 10:13:30 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:30 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:30 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:30 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:30 [INFO] api.cache - cache hit for key user:292
+2026-08-01 10:13:31 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:31 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:31 [INFO] api.cache - cache hit for key user:737
+2026-08-01 10:13:31 [INFO] worker.queue - cache hit for key user:318
+2026-08-01 10:13:32 [DEBUG] api.cache - pool size 210 connections
+2026-08-01 10:13:33 [DEBUG] worker.queue - pool size 490 connections
+2026-08-01 10:13:33 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:34 [INFO] worker.queue - cache hit for key user:409
+2026-08-01 10:13:35 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:36 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:37 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:37 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:37 [INFO] api.cache - cache hit for key user:488
+2026-08-01 10:13:37 [INFO] worker.queue - request completed in 410ms
+2026-08-01 10:13:37 [WARN] api.auth - slow query took 555ms
+2026-08-01 10:13:38 [DEBUG] api.cache - pool size 204 connections
+2026-08-01 10:13:38 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:38 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:38 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:38 [INFO] api.cache - cache hit for key user:387
+2026-08-01 10:13:38 [INFO] api.cache - request completed in 685ms
+2026-08-01 10:13:38 [WARN] api.orders - slow query took 633ms
+2026-08-01 10:13:39 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:39 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:40 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:40 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:40 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:40 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:40 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:40 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:40 [INFO] api.auth - cache hit for key user:892
+2026-08-01 10:13:42 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:43 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:43 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:43 [INFO] worker.queue - request completed in 554ms
+2026-08-01 10:13:44 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:44 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:45 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:45 [INFO] api.auth - cache hit for key user:658
+2026-08-01 10:13:45 [INFO] api.orders - request completed in 853ms
+2026-08-01 10:13:46 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:46 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:46 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:47 [INFO] api.auth - request completed in 570ms
+2026-08-01 10:13:49 [DEBUG] api.db - pool size 301 connections
+2026-08-01 10:13:49 [WARN] api.auth - slow query took 459ms
+2026-08-01 10:13:50 [DEBUG] worker.queue - pool size 650 connections
+2026-08-01 10:13:50 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:50 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:50 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:51 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:51 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:51 [INFO] api.auth - cache hit for key user:134
+2026-08-01 10:13:51 [INFO] api.orders - cache hit for key user:836
+2026-08-01 10:13:52 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:52 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:54 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:54 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:54 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:13:54 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:55 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:56 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:56 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:13:57 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:58 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:13:58 [INFO] api.auth - request completed in 64ms
+2026-08-01 10:13:59 [INFO] api.auth - request completed in 846ms
+2026-08-01 10:13:59 [INFO] api.cache - request completed in 382ms
+2026-08-01 10:13:59 [INFO] api.cache - request completed in 524ms
+2026-08-01 10:14:00 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:00 [INFO] api.cache - request completed in 313ms
+2026-08-01 10:14:01 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:01 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:02 [DEBUG] worker.queue - pool size 645 connections
+2026-08-01 10:14:02 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:02 [INFO] api.orders - cache hit for key user:143
+2026-08-01 10:14:03 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:03 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:03 [INFO] api.auth - cache hit for key user:657
+2026-08-01 10:14:04 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:04 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:04 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:05 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:05 [INFO] api.orders - cache hit for key user:335
+2026-08-01 10:14:06 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:06 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:07 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:07 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:08 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:08 [INFO] api.db - cache hit for key user:578
+2026-08-01 10:14:09 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:09 [WARN] api.cache - slow query took 413ms
+2026-08-01 10:14:10 [DEBUG] api.db - pool size 505 connections
+2026-08-01 10:14:10 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:10 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:10 [WARN] api.cache - slow query took 629ms
+2026-08-01 10:14:11 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:12 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:12 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:13 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:14 [INFO] api.auth - request completed in 452ms
+2026-08-01 10:14:15 [INFO] api.auth - cache hit for key user:173
+2026-08-01 10:14:17 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:17 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:18 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:18 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:18 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:18 [INFO] api.auth - request completed in 792ms
+2026-08-01 10:14:18 [INFO] api.cache - cache hit for key user:667
+2026-08-01 10:14:19 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:19 [WARN] api.orders - slow query took 597ms
+2026-08-01 10:14:20 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:20 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:21 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:21 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:21 [INFO] api.cache - request completed in 327ms
+2026-08-01 10:14:22 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:22 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:22 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:23 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:24 [DEBUG] api.db - pool size 742 connections
+2026-08-01 10:14:25 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:26 [DEBUG] api.db - pool size 345 connections
+2026-08-01 10:14:26 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:26 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:26 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:26 [ERROR] worker.queue - unhandled exception in handler
+2026-08-01 10:14:27 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:27 [INFO] api.cache - cache hit for key user:101
+2026-08-01 10:14:27 [INFO] api.db - request completed in 50ms
+2026-08-01 10:14:28 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:28 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:28 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:28 [INFO] api.auth - cache hit for key user:455
+2026-08-01 10:14:29 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:29 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:29 [WARN] api.db - slow query took 482ms
+2026-08-01 10:14:31 [INFO] api.orders - cache hit for key user:590
+2026-08-01 10:14:32 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:32 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:32 [INFO] api.orders - request completed in 417ms
+2026-08-01 10:14:33 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:33 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:33 [INFO] api.auth - cache hit for key user:617
+2026-08-01 10:14:34 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:35 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:35 [INFO] api.cache - cache hit for key user:274
+2026-08-01 10:14:36 [DEBUG] worker.queue - pool size 553 connections
+2026-08-01 10:14:36 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:36 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:36 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:36 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:36 [INFO] api.cache - request completed in 710ms
+2026-08-01 10:14:36 [INFO] api.cache - request completed in 750ms
+2026-08-01 10:14:37 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:37 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:37 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:37 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:38 [DEBUG] api.cache - pool size 88 connections
+2026-08-01 10:14:38 [WARN] api.db - slow query took 55ms
+2026-08-01 10:14:39 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:39 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:39 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:40 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:41 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:42 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:42 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:43 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:43 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:43 [WARN] api.auth - slow query took 681ms
+2026-08-01 10:14:44 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:45 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:45 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:45 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:46 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:46 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:47 [DEBUG] api.orders - pool size 145 connections
+2026-08-01 10:14:47 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:47 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:47 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:48 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:49 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:49 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:49 [INFO] api.auth - request completed in 830ms
+2026-08-01 10:14:50 [INFO] api.cache - cache hit for key user:370
+2026-08-01 10:14:51 [DEBUG] api.orders - pool size 149 connections
+2026-08-01 10:14:51 [DEBUG] worker.queue - pool size 126 connections
+2026-08-01 10:14:51 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:51 [WARN] worker.queue - slow query took 869ms
+2026-08-01 10:14:52 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:52 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:52 [WARN] api.orders - slow query took 277ms
+2026-08-01 10:14:53 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:53 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:53 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:53 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:53 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:54 [DEBUG] worker.queue - pool size 190 connections
+2026-08-01 10:14:55 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:55 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:14:56 [DEBUG] worker.queue - pool size 837 connections
+2026-08-01 10:14:56 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:14:57 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:14:59 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:00 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:01 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:01 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:01 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:01 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:02 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:02 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:02 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:02 [WARN] api.db - slow query took 148ms
+2026-08-01 10:15:04 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:04 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:05 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:05 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:05 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:07 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:07 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:08 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:08 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:09 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:10 [DEBUG] api.auth - pool size 257 connections
+2026-08-01 10:15:10 [DEBUG] api.cache - pool size 8 connections
+2026-08-01 10:15:10 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:10 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:10 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:10 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:10 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:11 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:12 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:12 [INFO] api.db - request completed in 567ms
+2026-08-01 10:15:13 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:13 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:13 [INFO] api.cache - request completed in 429ms
+2026-08-01 10:15:14 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:15 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:15 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:16 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:16 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:17 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:18 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:18 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:19 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:19 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:19 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:19 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:19 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:20 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:20 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:21 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:21 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:22 [DEBUG] api.db - pool size 119 connections
+2026-08-01 10:15:22 [DEBUG] worker.queue - pool size 45 connections
+2026-08-01 10:15:22 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:24 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:25 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:25 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:25 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:26 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:26 [INFO] api.db - cache hit for key user:308
+2026-08-01 10:15:27 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:27 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:27 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:27 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:27 [INFO] worker.queue - cache hit for key user:412
+2026-08-01 10:15:28 [INFO] api.auth - cache hit for key user:482
+2026-08-01 10:15:29 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:29 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:29 [INFO] api.db - request completed in 767ms
+2026-08-01 10:15:31 [DEBUG] worker.queue - pool size 180 connections
+2026-08-01 10:15:31 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:31 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:31 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:32 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:33 [ERROR] api.orders - unhandled exception in handler
+2026-08-01 10:15:33 [INFO] api.db - cache hit for key user:106
+2026-08-01 10:15:34 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:35 [DEBUG] api.auth - pool size 247 connections
+2026-08-01 10:15:35 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:35 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:35 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:35 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:36 [DEBUG] worker.queue - pool size 447 connections
+2026-08-01 10:15:36 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:36 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:36 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:37 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:37 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:37 [WARN] worker.queue - slow query took 624ms
+2026-08-01 10:15:38 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:39 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:40 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:41 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:41 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:42 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:43 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:43 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:43 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:44 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:44 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:44 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:44 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:45 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:45 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:45 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:45 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:45 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:45 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:46 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:46 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:47 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:47 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:47 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:48 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:48 [INFO] api.cache - cache hit for key user:615
+2026-08-01 10:15:49 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:49 [INFO] worker.queue - request completed in 71ms
+2026-08-01 10:15:52 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:52 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:53 [INFO] api.db - request completed in 708ms
+2026-08-01 10:15:53 [INFO] api.orders - request completed in 694ms
+2026-08-01 10:15:54 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:54 [ERROR] api.db - upstream timeout after 30000ms
+2026-08-01 10:15:54 [INFO] api.orders - cache hit for key user:285
+2026-08-01 10:15:56 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:56 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:58 [ERROR] api.db - connection pool exhausted
+2026-08-01 10:15:58 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:15:58 [INFO] api.cache - request completed in 223ms
+2026-08-01 10:15:59 [ERROR] api.db - failed to commit transaction
+2026-08-01 10:16:01 [INFO] worker.queue - cache hit for key user:500
+2026-08-01 10:16:02 [DEBUG] api.db - pool size 104 connections
+2026-08-01 10:16:04 [INFO] worker.queue - cache hit for key user:155
+2026-08-01 10:16:06 [WARN] api.orders - slow query took 559ms
+2026-08-01 10:16:07 [WARN] worker.queue - slow query took 91ms
+2026-08-01 10:16:10 [DEBUG] api.auth - pool size 825 connections
+2026-08-01 10:16:12 [INFO] api.db - request completed in 142ms
+2026-08-01 10:16:14 [INFO] worker.queue - cache hit for key user:556
+2026-08-01 10:16:16 [WARN] worker.queue - slow query took 23ms
+2026-08-01 10:16:23 [INFO] api.db - cache hit for key user:472
+2026-08-01 10:16:28 [INFO] api.auth - request completed in 501ms
+2026-08-01 10:16:35 [INFO] api.orders - request completed in 36ms
+2026-08-01 10:16:35 [INFO] worker.queue - request completed in 643ms
+2026-08-01 10:16:37 [DEBUG] api.auth - pool size 456 connections
+2026-08-01 10:16:41 [DEBUG] api.cache - pool size 728 connections
+2026-08-01 10:16:43 [WARN] worker.queue - slow query took 139ms
+2026-08-01 10:16:44 [INFO] api.cache - request completed in 873ms
+2026-08-01 10:16:47 [DEBUG] api.cache - pool size 741 connections
+2026-08-01 10:16:49 [WARN] api.auth - slow query took 244ms
+2026-08-01 10:16:52 [INFO] worker.queue - cache hit for key user:383
+2026-08-01 10:16:55 [INFO] api.db - request completed in 747ms
+2026-08-01 10:16:59 [WARN] api.orders - slow query took 858ms
+2026-08-01 10:17:00 [WARN] api.orders - slow query took 343ms
+2026-08-01 10:17:01 [INFO] api.orders - request completed in 648ms
+2026-08-01 10:17:02 [DEBUG] api.cache - pool size 746 connections
+2026-08-01 10:17:04 [DEBUG] worker.queue - pool size 260 connections
+2026-08-01 10:17:04 [DEBUG] worker.queue - pool size 367 connections
+2026-08-01 10:17:04 [WARN] api.cache - slow query took 865ms
+2026-08-01 10:17:08 [WARN] api.cache - slow query took 416ms
+2026-08-01 10:17:10 [WARN] api.orders - slow query took 404ms
+2026-08-01 10:17:19 [DEBUG] api.db - pool size 759 connections
+2026-08-01 10:17:21 [WARN] api.db - slow query took 364ms
+2026-08-01 10:17:25 [DEBUG] worker.queue - pool size 174 connections
+2026-08-01 10:17:32 [INFO] worker.queue - cache hit for key user:360
+2026-08-01 10:17:33 [INFO] worker.queue - cache hit for key user:605
+2026-08-01 10:17:35 [DEBUG] api.orders - pool size 77 connections
+2026-08-01 10:17:36 [INFO] api.auth - cache hit for key user:717
+2026-08-01 10:17:37 [INFO] worker.queue - cache hit for key user:313
+2026-08-01 10:17:42 [WARN] api.db - slow query took 517ms
+2026-08-01 10:17:45 [INFO] api.db - request completed in 723ms
+2026-08-01 10:17:46 [DEBUG] api.db - pool size 395 connections
+2026-08-01 10:17:49 [INFO] api.db - request completed in 373ms
+2026-08-01 10:17:50 [INFO] api.auth - cache hit for key user:699
+2026-08-01 10:17:55 [ERROR] api.auth - unhandled exception in handler
+2026-08-01 10:17:55 [INFO] api.db - request completed in 371ms
+2026-08-01 10:17:57 [INFO] api.orders - cache hit for key user:359
+2026-08-01 10:17:58 [INFO] api.orders - request completed in 895ms
+2026-08-01 10:18:01 [INFO] api.auth - cache hit for key user:544
+2026-08-01 10:18:08 [INFO] worker.queue - request completed in 77ms
+2026-08-01 10:18:20 [INFO] api.cache - request completed in 666ms
+2026-08-01 10:18:21 [INFO] api.db - request completed in 194ms
+2026-08-01 10:18:21 [WARN] api.cache - slow query took 265ms
+2026-08-01 10:18:22 [WARN] worker.queue - slow query took 354ms
+2026-08-01 10:18:25 [DEBUG] api.auth - pool size 180 connections
+2026-08-01 10:18:25 [DEBUG] worker.queue - pool size 886 connections
+2026-08-01 10:18:29 [WARN] api.auth - slow query took 740ms
+2026-08-01 10:18:34 [ERROR] api.orders - unhandled exception in handler
+2026-08-01 10:18:34 [INFO] api.db - request completed in 657ms
+2026-08-01 10:18:36 [DEBUG] api.cache - pool size 59 connections
+2026-08-01 10:18:36 [DEBUG] api.cache - pool size 834 connections
+2026-08-01 10:18:39 [DEBUG] api.auth - pool size 162 connections
+2026-08-01 10:18:40 [INFO] api.auth - request completed in 225ms
+2026-08-01 10:18:41 [INFO] api.auth - cache hit for key user:753
+2026-08-01 10:18:41 [WARN] api.db - slow query took 574ms
+2026-08-01 10:18:43 [INFO] worker.queue - cache hit for key user:675
+2026-08-01 10:18:48 [ERROR] api.db - unhandled exception in handler
+2026-08-01 10:18:53 [INFO] api.db - cache hit for key user:284
+2026-08-01 10:18:55 [ERROR] api.db - unhandled exception in handler
+2026-08-01 10:18:55 [INFO] worker.queue - request completed in 91ms
+2026-08-01 10:18:59 [ERROR] api.db - unhandled exception in handler
+2026-08-01 10:19:00 [INFO] api.db - request completed in 673ms
+2026-08-01 10:19:01 [WARN] api.orders - slow query took 249ms
+2026-08-01 10:19:02 [WARN] api.cache - slow query took 188ms
+2026-08-01 10:19:03 [INFO] api.db - cache hit for key user:873
+2026-08-01 10:19:03 [WARN] api.cache - slow query took 421ms
+2026-08-01 10:19:04 [WARN] api.db - slow query took 692ms
+2026-08-01 10:19:07 [INFO] api.orders - cache hit for key user:570
+2026-08-01 10:19:09 [INFO] api.auth - cache hit for key user:412
+2026-08-01 10:19:13 [DEBUG] api.cache - pool size 821 connections
+2026-08-01 10:19:16 [DEBUG] api.orders - pool size 757 connections
+2026-08-01 10:19:19 [WARN] worker.queue - slow query took 223ms
+2026-08-01 10:19:22 [INFO] api.cache - cache hit for key user:454
+2026-08-01 10:19:22 [WARN] api.db - slow query took 660ms
+2026-08-01 10:19:29 [INFO] api.auth - request completed in 112ms
+2026-08-01 10:19:31 [INFO] api.db - cache hit for key user:167
+2026-08-01 10:19:33 [DEBUG] api.db - pool size 137 connections
+2026-08-01 10:19:42 [INFO] api.db - cache hit for key user:33
+2026-08-01 10:19:43 [WARN] worker.queue - slow query took 219ms
+2026-08-01 10:19:50 [DEBUG] api.orders - pool size 771 connections
+2026-08-01 10:19:52 [INFO] api.auth - request completed in 341ms
+2026-08-01 10:19:55 [DEBUG] api.auth - pool size 703 connections
+2026-08-01 10:19:57 [INFO] api.auth - cache hit for key user:543
+2026-08-01 10:19:59 [ERROR] api.orders - unhandled exception in handler
+2026-08-01 10:20:04 [INFO] api.auth - cache hit for key user:522
+2026-08-01 10:20:04 [INFO] api.orders - request completed in 501ms
+2026-08-01 10:20:09 [DEBUG] api.orders - pool size 101 connections
+2026-08-01 10:20:09 [INFO] api.db - request completed in 138ms
+2026-08-01 10:20:09 [INFO] api.db - request completed in 544ms
+2026-08-01 10:20:17 [INFO] api.db - request completed in 272ms
+2026-08-01 10:20:20 [WARN] api.db - slow query took 559ms
+2026-08-01 10:20:24 [WARN] api.orders - slow query took 825ms
+2026-08-01 10:20:25 [WARN] api.orders - slow query took 394ms
+2026-08-01 10:20:26 [DEBUG] api.auth - pool size 275 connections
+2026-08-01 10:20:29 [INFO] api.db - request completed in 426ms
+2026-08-01 10:20:32 [WARN] api.auth - slow query took 717ms
+2026-08-01 10:20:33 [INFO] worker.queue - cache hit for key user:231
+2026-08-01 10:20:35 [WARN] api.db - slow query took 897ms
+2026-08-01 10:20:37 [INFO] api.orders - request completed in 40ms
+2026-08-01 10:20:41 [WARN] api.auth - slow query took 345ms
+2026-08-01 10:20:46 [ERROR] api.db - unhandled exception in handler
+2026-08-01 10:20:53 [INFO] api.orders - request completed in 359ms
+2026-08-01 10:20:54 [INFO] api.auth - cache hit for key user:750
+2026-08-01 10:21:09 [DEBUG] api.orders - pool size 538 connections
+2026-08-01 10:21:09 [WARN] api.auth - slow query took 183ms
+2026-08-01 10:21:09 [WARN] api.db - slow query took 107ms
+2026-08-01 10:21:15 [DEBUG] worker.queue - pool size 712 connections
+2026-08-01 10:21:17 [WARN] api.auth - slow query took 713ms
+2026-08-01 10:21:20 [WARN] api.cache - slow query took 127ms
+2026-08-01 10:21:22 [DEBUG] api.auth - pool size 465 connections
+2026-08-01 10:21:22 [WARN] api.db - slow query took 540ms
+2026-08-01 10:21:25 [DEBUG] api.cache - pool size 703 connections
+2026-08-01 10:21:30 [WARN] api.db - slow query took 524ms
+2026-08-01 10:21:33 [DEBUG] api.orders - pool size 246 connections
+2026-08-01 10:21:35 [WARN] api.auth - slow query took 593ms
+2026-08-01 10:21:37 [WARN] api.cache - slow query took 242ms
+2026-08-01 10:21:39 [DEBUG] worker.queue - pool size 75 connections
+2026-08-01 10:21:42 [DEBUG] api.cache - pool size 270 connections
+2026-08-01 10:21:42 [INFO] api.auth - request completed in 735ms
+2026-08-01 10:21:46 [INFO] api.orders - cache hit for key user:847
+2026-08-01 10:21:54 [WARN] api.orders - slow query took 586ms
+2026-08-01 10:22:02 [DEBUG] api.cache - pool size 419 connections
+2026-08-01 10:22:03 [INFO] api.db - cache hit for key user:730
+2026-08-01 10:22:06 [INFO] api.cache - cache hit for key user:579
+2026-08-01 10:22:06 [WARN] api.cache - slow query took 475ms
+2026-08-01 10:22:07 [INFO] api.auth - request completed in 586ms
+2026-08-01 10:22:09 [ERROR] api.orders - unhandled exception in handler
+2026-08-01 10:22:11 [DEBUG] api.db - pool size 333 connections
+2026-08-01 10:22:15 [WARN] worker.queue - slow query took 95ms
+2026-08-01 10:22:21 [INFO] api.cache - request completed in 776ms
+2026-08-01 10:22:23 [INFO] api.db - cache hit for key user:639
+2026-08-01 10:22:24 [INFO] api.orders - cache hit for key user:635
+2026-08-01 10:22:24 [WARN] api.auth - slow query took 510ms
+2026-08-01 10:22:25 [INFO] api.orders - request completed in 688ms
+2026-08-01 10:22:26 [INFO] api.cache - cache hit for key user:68
+2026-08-01 10:22:27 [DEBUG] api.db - pool size 634 connections
+2026-08-01 10:22:30 [WARN] worker.queue - slow query took 865ms
+2026-08-01 10:22:33 [WARN] api.auth - slow query took 260ms
+2026-08-01 10:22:35 [DEBUG] worker.queue - pool size 61 connections
+2026-08-01 10:22:35 [WARN] api.cache - slow query took 790ms
+2026-08-01 10:22:40 [INFO] api.orders - request completed in 208ms
+2026-08-01 10:22:40 [INFO] worker.queue - cache hit for key user:779
+2026-08-01 10:22:41 [DEBUG] api.orders - pool size 362 connections
+2026-08-01 10:22:47 [INFO] api.db - request completed in 698ms
+2026-08-01 10:22:54 [DEBUG] api.orders - pool size 66 connections
+2026-08-01 10:22:58 [WARN] api.db - slow query took 386ms
+2026-08-01 10:23:00 [WARN] api.db - slow query took 580ms
+2026-08-01 10:23:02 [WARN] api.orders - slow query took 300ms
+2026-08-01 10:23:03 [DEBUG] api.cache - pool size 725 connections
+2026-08-01 10:23:12 [INFO] api.db - request completed in 748ms
+2026-08-01 10:23:12 [INFO] worker.queue - request completed in 192ms
+2026-08-01 10:23:13 [INFO] api.cache - request completed in 186ms
+2026-08-01 10:23:15 [WARN] worker.queue - slow query took 879ms
+2026-08-01 10:23:16 [DEBUG] api.cache - pool size 571 connections
+2026-08-01 10:23:16 [INFO] api.orders - cache hit for key user:55
+2026-08-01 10:23:17 [INFO] api.cache - request completed in 322ms
+2026-08-01 10:23:26 [INFO] api.db - cache hit for key user:330
+2026-08-01 10:23:32 [INFO] api.db - request completed in 316ms
+2026-08-01 10:23:33 [INFO] api.auth - request completed in 208ms
+2026-08-01 10:23:34 [WARN] api.cache - slow query took 674ms
+2026-08-01 10:23:45 [DEBUG] api.db - pool size 822 connections
+2026-08-01 10:23:45 [WARN] api.cache - slow query took 417ms
+2026-08-01 10:23:47 [WARN] api.db - slow query took 228ms
+2026-08-01 10:23:51 [INFO] api.orders - cache hit for key user:151
+2026-08-01 10:23:52 [INFO] worker.queue - cache hit for key user:16
+2026-08-01 10:23:54 [INFO] api.auth - request completed in 142ms
+2026-08-01 10:24:02 [ERROR] worker.queue - unhandled exception in handler
+2026-08-01 10:24:02 [INFO] api.db - request completed in 3ms
+2026-08-01 10:24:06 [INFO] worker.queue - cache hit for key user:427
+2026-08-01 10:24:07 [ERROR] api.db - unhandled exception in handler
+2026-08-01 10:24:07 [INFO] worker.queue - cache hit for key user:673
+2026-08-01 10:24:07 [WARN] api.auth - slow query took 474ms
+2026-08-01 10:24:09 [INFO] api.orders - cache hit for key user:44
+2026-08-01 10:24:09 [WARN] api.cache - slow query took 343ms
+2026-08-01 10:24:12 [DEBUG] api.orders - pool size 53 connections
+2026-08-01 10:24:17 [INFO] api.orders - request completed in 208ms
+2026-08-01 10:24:20 [INFO] api.orders - cache hit for key user:157
+2026-08-01 10:24:21 [WARN] api.db - slow query took 255ms
+2026-08-01 10:24:23 [INFO] api.auth - request completed in 341ms
+2026-08-01 10:24:25 [DEBUG] api.orders - pool size 391 connections
+2026-08-01 10:24:30 [INFO] api.db - cache hit for key user:594
+2026-08-01 10:24:33 [WARN] api.auth - slow query took 358ms
+2026-08-01 10:24:41 [INFO] api.cache - request completed in 204ms
+2026-08-01 10:24:47 [INFO] api.db - request completed in 808ms
+2026-08-01 10:24:48 [INFO] api.cache - request completed in 207ms
+2026-08-01 10:24:51 [INFO] api.db - cache hit for key user:318
+2026-08-01 10:24:51 [WARN] worker.queue - slow query took 99ms
+2026-08-01 10:24:53 [DEBUG] api.orders - pool size 747 connections
+2026-08-01 10:24:53 [INFO] worker.queue - cache hit for key user:897
+2026-08-01 10:24:53 [WARN] api.orders - slow query took 312ms
+2026-08-01 10:25:00 [WARN] api.cache - slow query took 807ms
+2026-08-01 10:25:01 [INFO] worker.queue - request completed in 300ms
+2026-08-01 10:25:02 [DEBUG] worker.queue - pool size 72 connections
+2026-08-01 10:25:02 [INFO] worker.queue - cache hit for key user:153
+2026-08-01 10:25:03 [INFO] api.orders - cache hit for key user:707
+2026-08-01 10:25:04 [INFO] api.orders - request completed in 44ms
+2026-08-01 10:25:05 [INFO] api.db - cache hit for key user:863
+2026-08-01 10:25:06 [INFO] api.orders - cache hit for key user:121
+2026-08-01 10:25:13 [INFO] api.db - cache hit for key user:704
+2026-08-01 10:25:13 [INFO] worker.queue - cache hit for key user:746
+2026-08-01 10:25:15 [INFO] api.db - request completed in 520ms
+2026-08-01 10:25:21 [WARN] api.orders - slow query took 608ms
+2026-08-01 10:25:23 [DEBUG] worker.queue - pool size 415 connections
+2026-08-01 10:25:31 [INFO] api.cache - request completed in 334ms
+2026-08-01 10:25:32 [INFO] api.auth - request completed in 17ms
+2026-08-01 10:25:38 [INFO] api.orders - request completed in 843ms
+2026-08-01 10:25:39 [INFO] api.db - cache hit for key user:836
+2026-08-01 10:25:40 [INFO] api.db - request completed in 868ms
+2026-08-01 10:25:43 [DEBUG] api.orders - pool size 790 connections
+2026-08-01 10:25:45 [INFO] api.cache - request completed in 812ms
+2026-08-01 10:25:50 [DEBUG] api.orders - pool size 598 connections
+2026-08-01 10:25:56 [INFO] api.orders - cache hit for key user:241
+2026-08-01 10:26:00 [INFO] api.cache - request completed in 115ms
+2026-08-01 10:26:05 [INFO] api.cache - cache hit for key user:720
+2026-08-01 10:26:06 [WARN] api.db - slow query took 580ms
+2026-08-01 10:26:14 [WARN] api.cache - slow query took 317ms
+2026-08-01 10:26:20 [INFO] api.orders - cache hit for key user:879
+2026-08-01 10:26:21 [INFO] api.cache - request completed in 364ms
+2026-08-01 10:26:24 [INFO] api.orders - cache hit for key user:373
+2026-08-01 10:26:25 [INFO] api.db - cache hit for key user:670
+2026-08-01 10:26:25 [INFO] api.orders - request completed in 875ms
+2026-08-01 10:26:26 [DEBUG] api.orders - pool size 470 connections
+2026-08-01 10:26:26 [INFO] api.orders - cache hit for key user:125
+2026-08-01 10:26:34 [INFO] api.db - request completed in 71ms
+2026-08-01 10:26:36 [INFO] api.cache - request completed in 403ms
+2026-08-01 10:26:37 [INFO] api.cache - cache hit for key user:900
+2026-08-01 10:26:42 [DEBUG] api.cache - pool size 684 connections
+2026-08-01 10:26:42 [WARN] api.db - slow query took 813ms
+2026-08-01 10:26:43 [WARN] api.db - slow query took 140ms
+2026-08-01 10:26:43 [WARN] api.orders - slow query took 844ms
+2026-08-01 10:26:47 [INFO] worker.queue - request completed in 567ms
+2026-08-01 10:26:48 [INFO] api.orders - cache hit for key user:247
+2026-08-01 10:26:50 [DEBUG] api.cache - pool size 847 connections
+2026-08-01 10:26:52 [DEBUG] worker.queue - pool size 767 connections
+2026-08-01 10:26:53 [DEBUG] api.cache - pool size 56 connections
+2026-08-01 10:26:53 [INFO] api.cache - cache hit for key user:447
+2026-08-01 10:26:54 [INFO] api.db - request completed in 301ms
+2026-08-01 10:27:00 [DEBUG] api.orders - pool size 149 connections
+2026-08-01 10:27:03 [INFO] api.cache - request completed in 572ms
+2026-08-01 10:27:17 [WARN] worker.queue - slow query took 204ms
+2026-08-01 10:27:18 [INFO] worker.queue - request completed in 432ms
+2026-08-01 10:27:19 [DEBUG] api.orders - pool size 712 connections
+2026-08-01 10:27:20 [WARN] api.db - slow query took 113ms
+2026-08-01 10:27:23 [WARN] api.auth - slow query took 536ms
+2026-08-01 10:27:23 [WARN] api.cache - slow query took 814ms
+2026-08-01 10:27:26 [WARN] api.db - slow query took 506ms
+2026-08-01 10:27:28 [INFO] worker.queue - cache hit for key user:748
+2026-08-01 10:27:31 [DEBUG] api.orders - pool size 145 connections
+2026-08-01 10:27:32 [WARN] api.db - slow query took 274ms
+2026-08-01 10:27:33 [INFO] api.db - request completed in 168ms
+2026-08-01 10:27:37 [INFO] api.orders - request completed in 403ms
+2026-08-01 10:27:44 [DEBUG] worker.queue - pool size 167 connections
+2026-08-01 10:27:47 [DEBUG] api.orders - pool size 496 connections
+2026-08-01 10:27:47 [DEBUG] api.orders - pool size 644 connections
+2026-08-01 10:27:47 [DEBUG] worker.queue - pool size 56 connections
+2026-08-01 10:27:58 [WARN] api.auth - slow query took 374ms
+2026-08-01 10:28:02 [DEBUG] worker.queue - pool size 364 connections
+2026-08-01 10:28:06 [WARN] api.auth - slow query took 856ms
+2026-08-01 10:28:07 [WARN] api.cache - slow query took 515ms
+2026-08-01 10:28:08 [INFO] api.auth - request completed in 425ms
+2026-08-01 10:28:17 [WARN] worker.queue - slow query took 679ms
+2026-08-01 10:28:23 [INFO] worker.queue - cache hit for key user:73
+2026-08-01 10:28:23 [WARN] api.db - slow query took 544ms
+2026-08-01 10:28:31 [DEBUG] api.orders - pool size 887 connections
+2026-08-01 10:28:32 [ERROR] worker.queue - unhandled exception in handler
+2026-08-01 10:28:36 [INFO] api.orders - cache hit for key user:156
+2026-08-01 10:28:40 [DEBUG] api.orders - pool size 47 connections
+2026-08-01 10:28:42 [INFO] api.auth - cache hit for key user:514
+2026-08-01 10:28:42 [WARN] api.orders - slow query took 415ms
+2026-08-01 10:28:45 [DEBUG] api.orders - pool size 624 connections
+2026-08-01 10:28:45 [WARN] api.db - slow query took 687ms
+2026-08-01 10:28:49 [DEBUG] api.cache - pool size 411 connections
+2026-08-01 10:28:54 [DEBUG] api.auth - pool size 462 connections
+2026-08-01 10:28:54 [INFO] api.cache - request completed in 283ms
+2026-08-01 10:28:56 [WARN] api.db - slow query took 629ms
+2026-08-01 10:28:57 [INFO] api.cache - request completed in 762ms
+2026-08-01 10:28:57 [INFO] worker.queue - request completed in 370ms
+2026-08-01 10:28:59 [INFO] api.auth - cache hit for key user:742
+2026-08-01 10:29:01 [DEBUG] api.db - pool size 436 connections
+2026-08-01 10:29:01 [INFO] api.orders - cache hit for key user:811
+2026-08-01 10:29:04 [DEBUG] api.auth - pool size 225 connections
+2026-08-01 10:29:04 [DEBUG] api.auth - pool size 743 connections
+2026-08-01 10:29:07 [DEBUG] api.db - pool size 646 connections
+2026-08-01 10:29:10 [INFO] worker.queue - cache hit for key user:80
+2026-08-01 10:29:21 [INFO] worker.queue - cache hit for key user:225
+2026-08-01 10:29:23 [ERROR] worker.queue - unhandled exception in handler
+2026-08-01 10:29:26 [INFO] api.db - request completed in 825ms
+2026-08-01 10:29:29 [INFO] api.cache - cache hit for key user:116
+2026-08-01 10:29:29 [INFO] api.db - cache hit for key user:459
+2026-08-01 10:29:32 [WARN] worker.queue - slow query took 606ms
+2026-08-01 10:29:34 [DEBUG] api.cache - pool size 75 connections
+2026-08-01 10:29:34 [INFO] api.orders - cache hit for key user:798
+2026-08-01 10:29:36 [WARN] worker.queue - slow query took 701ms
+2026-08-01 10:29:37 [WARN] worker.queue - slow query took 526ms
+2026-08-01 10:29:38 [INFO] api.cache - request completed in 552ms
+2026-08-01 10:29:49 [DEBUG] api.auth - pool size 767 connections
+2026-08-01 10:29:50 [DEBUG] worker.queue - pool size 861 connections
